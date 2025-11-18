@@ -70,7 +70,6 @@ div.banner > a > input.start_button {
     font-size: large;
     position: relative;
     color: white;
-    text-decoration: solid;
     background-color: rgba(45, 85, 170, 0.74);
     top: 400px;
     bottom: 70px;
@@ -94,35 +93,69 @@ div.flutuante {
     text-shadow: black 1px 1px 1px;
 }
 
-.imagem_pai {
-    max-width:  700px;
+.imagem_pai {   
+    width: 875px;
     max-height: 600px;
-}
+}   
+
 
 div#adequa{
+    height: 200px;
+    width: 315px;
     position: relative;
     bottom: 1300px;
-    right: 90px;
+    right: 30px;
     float: right;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.455);
 }
+div#adequa > p {
+    text-align: left;
+    font-size: x-large;
+    color: rgb(45, 85, 170);
+}
+#banner_adequa{
+    max-width: 316px;
+}
+
 div#inclusao {
-    position: relative;
-    bottom: 1200px;
-    right: 90px;
-    float: right;
-}
-div#letr_dig {
+    height: 200px;
+    width: 315px;
     position: relative;
     bottom: 1100px;
-    right: 90px;
+    right: -285px;
     float: right;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.455);
+}
+#banner_projeto {
+    max-width: 315px;
+    height: 120px;
+}
+
+div#letr_dig {
+    height: 200px;
+    width: 315px;
+    position: relative;
+    bottom: 900px;
+    right: -601px;
+    float: right;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.455);
+}
+#LD_logo {
+    max-width: 315px;
+    height: 110px;
 }
 
 div#manual {
+    height: 200px;
+    width: 315px;
     position: relative;
-    bottom: 1000px;
-    right: 90px;
+    bottom: 700px;
+    right: -917px;
     float: right;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.455);
+}
+#gov-ms {
+    max-width: 315px;
 }
 
 
@@ -136,9 +169,7 @@ footer {
 /* Página de seleção de módulos */
 
 #modulo1 {
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    display:inline-block;
-    box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+    box-shadow: 1em 1em 6em rgba(0, 0, 0, 0.562);
     position:relative;
     display:inline-block;
     border-radius: 50px;     
@@ -157,12 +188,12 @@ footer {
     align-content: center;
     width: 80vh;
     height: 200px;
+    border-radius: 10px;
+    margin-left: 15px;
 }
 
 #modulo2 {
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-   display:inline-block;
-   box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+   box-shadow: 1em 1em 6em rgba(0, 0, 0, 0.562);
    position:relative;
    display:inline-block;
    border-radius: 50px;
@@ -181,12 +212,12 @@ footer {
     align-content: center;
     width: 80vh;
     height: 200px;
+    border-radius: 10px;
+    margin-left: 15px;
 }
 
 #modulo3 {
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    display: inline-block;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 1em 1em 6em rgba(0, 0, 0, 0.562);
     position: relative;
     display: inline-block;
     border-radius: 50px;
@@ -205,12 +236,15 @@ footer {
     align-content: center;
     width: 80vh;
     height: 200px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+#mulher_conteudo {
+    width: 800px;
 }
 
 #modulo4 {
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    display: inline-block;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 1em 1em 6em rgba(0, 0, 0, 0.562);
     position: relative;
     display: inline-block;
     border-radius: 50px;
@@ -226,7 +260,8 @@ footer {
     font-size: large;
 }
 #navigation {
-    align-content: center;
     width: 80vh;
     height: 200px;
+    border-radius: 10px;
+    margin-left: 15px;
 }
