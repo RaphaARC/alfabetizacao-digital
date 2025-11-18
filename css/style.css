@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Formatação do Cabeçalho */
+
+header {
+    background-color: rgb(45, 85, 170);
+    color: white;
+}
+header > input {
+    position: absolute;
+    top: 22px;
+    right: 40px;
+    width: 400px;
+    height: 40px;
+}
+
+.menu {
+    background-color: rgb(45, 85, 170);
+}
+.menu > nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* Formatação do corpo da página principal 
+(Alguns recursos reutilizados nas outras páginas) */
+
+body {
+    background-color: lightgray;
+}
+
+article {
+    margin: auto;
+    max-width: 1600px;
+    background-color: white;
+}
+
+section {
+    margin: auto;
+}
+section.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    padding: 40px;
+}
+section.text > p {
+    max-width: 900px;
+    margin-top: 5px;
+    text-indent: 18px;
+}
+
+div.banner {
+    background: #ffffffe7 url(../images/casal-senior-em-plano-medio-com-laptop.jpg) no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+div.banner > a > input.start_button {
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    position: relative;
+    color: white;
+    text-decoration: solid;
+    background-color: rgba(45, 85, 170, 0.74);
+    top: 400px;
+    bottom: 70px;
+    left: 1100px;
+    width: 200px;
+    height: 60px;
+}
+
+div.flutuante {
+    display: block;
+    background-color: rgba(70, 120, 228, 0.582);
+    position: relative;
+    top: 10px;
+    left: 850px;
+    width: 680px;
+    height: 200px;
+    padding-top: 70px;
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(252, 252, 252);
+    text-shadow: black 1px 1px 1px;
+}
+
+.imagem_pai {
+    max-width:  700px;
+    max-height: 600px;
+}
+
+div#adequa{
+    position: relative;
+    bottom: 1300px;
+    right: 90px;
+    float: right;
+}
+div#inclusao {
+    position: relative;
+    bottom: 1200px;
+    right: 90px;
+    float: right;
+}
+div#letr_dig {
+    position: relative;
+    bottom: 1100px;
+    right: 90px;
+    float: right;
+}
+
+div#manual {
+    position: relative;
+    bottom: 1000px;
+    right: 90px;
+    float: right;
+}
+
+
+footer {
+    padding: 40px;
+    background-color: rgb(45, 85, 170);
+    color: white;
+}
+
+
+/* Página de seleção de módulos */
+
+#modulo1 {
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display:inline-block;
+    box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+    position:relative;
+    display:inline-block;
+    border-radius: 50px;     
+    background-color: white;
+    width: 800px;
+    margin: 100px;
+    height: 200px;
+    padding: 50px;
+}
+#modulo1 > a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#pack_office_icons {
+    align-content: center;
+    width: 80vh;
+    height: 200px;
+}
+
+#modulo2 {
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+   display:inline-block;
+   box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+   position:relative;
+   display:inline-block;
+   border-radius: 50px;
+   background-color: white;
+   width: 800px;
+   margin: 100px;
+   height: 200px;  
+   padding: 50px;  
+}
+#modulo2 > a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#select_emoji {
+    align-content: center;
+    width: 80vh;
+    height: 200px;
+}
+
+#modulo3 {
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: inline-block;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: white;
+    width: 800px;
+    margin: 100px;
+    height: 200px;
+    padding: 50px;
+}
+#modulo3 > a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#content_creation {
+    align-content: center;
+    width: 80vh;
+    height: 200px;
+}
+
+#modulo4 {
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: inline-block;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: white;
+    width: 800px;
+    margin: 100px;
+    height: 200px;
+    padding: 50px;
+}
+#modulo4 > a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#navigation {
+    align-content: center;
+    width: 80vh;
+    height: 200px;
+}
